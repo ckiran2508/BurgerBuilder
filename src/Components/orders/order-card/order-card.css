@@ -1,0 +1,29 @@
+.order-card{
+    display:flex;
+    flex-wrap: wrap;
+    width:95%;
+    height:50px;
+    margin:15px;
+    padding:5px;
+    flex-shrink:0;
+    box-shadow: 0 0 5px gray;
+    border-radius:3px;
+    background:#fff5e6;
+    font-size:12px;
+    transition: 0.2s ease-in-out;
+}
+
+.order-card p{
+    margin:auto;
+    margin-left:30px;
+    cursor:pointer;
+}
+
+.order-card p:first-child{
+    width:150px
+}
+
+.order-card p:first-child:hover{
+text-decoration:underline;
+
+}

@@ -1,0 +1,55 @@
+.btn-grp{
+    display:flex;
+    margin:6px auto;
+    width:max-content
+    }
+    
+    
+.btn-grp .btn, .label{
+    padding:3px 0;
+    margin:3px 0;
+    text-align: center;
+    width:35px;
+    text-align:center;
+    border: 1px solid #cc9966;
+    background:#d9b38c;
+    transition: 0.2s ease-in-out;
+    }
+    
+    .btn,.btn2{
+    padding:3px 50px;
+    width:max-content;
+    border: 1px solid #cc9966;
+    border-radius:3px;
+    margin:10px auto;
+    background:#d9b38c;
+    transition: 0.2s ease-in-out;
+    }
+
+    .btn2{
+        width:70px;
+        text-align: center;
+        }
+
+    .btn-grp .btn:first-child{
+        border-radius:3px 0 0 3px;
+    }
+    .btn-grp .btn:last-child{
+        border-radius:0 3px 3px 0;
+    }
+    
+    .btn,.btn2:hover{
+    cursor:pointer;
+    background:#c68c53;
+   
+    }
+    
+    .btn,.btn2:active{
+    background:#ac7339;
+    }
+    
+    .label{
+    border-left:none;
+    border-right:none;
+    width:100px;
+    }

@@ -1,0 +1,42 @@
+.orders{
+    width:100%;
+    height:650px;
+    margin:auto;
+    overflow-y:overlay;
+}
+
+
+.view-order{
+    margin:auto;
+    width:500px;
+    overflow-y:overlay;
+}
+
+
+.view-order table{
+    margin:5px;
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+
+.view-order td{
+    border:1px solid lightgray;
+    padding:3px;
+}
+
+ .burgers-wrapper{
+     display:flex;
+     flex-wrap: wrap;
+    height:300px;
+    border:1px solid lightgray;
+    border-radius:3px;
+    overflow-y: auto;
+}
+
+.burger-box{
+    margin:5px;
+    height:max-content;
+    width:125px;
+    border-radius:3px;
+    border: 1px solid lightgray
+}

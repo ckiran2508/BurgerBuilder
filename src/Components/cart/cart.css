@@ -1,0 +1,17 @@
+.cart{
+    display: flex;
+    width:100%;
+    flex-wrap:wrap;
+    height:650px;
+    overflow-y:overlay;
+    align-content:flex-start;
+}
+
+.place-order{
+    cursor:pointer;
+    transition: box-shadow .3s;
+}
+.place-order:hover{
+    box-shadow: 0 0 11px gray;
+}
+

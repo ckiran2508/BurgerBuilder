@@ -1,0 +1,22 @@
+
+.link2{
+    padding:3px 50px;
+    text-align: center;
+    width:70px;
+    border: 1px solid #cc9966;
+    border-radius:3px;
+    margin:10px auto;
+    background:#d9b38c;
+    transition: 0.2s ease-in-out;
+    color: inherit;
+    text-decoration:none;
+  }
+  
+  .link2:hover{
+    cursor:pointer;
+    background:#c68c53;
+    }
+    
+    .link2:active{
+    background:#ac7339;
+    }
